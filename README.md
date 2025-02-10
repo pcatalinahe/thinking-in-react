@@ -1,1 +1,3 @@
-How is state and props working in the application?
+How is state and props working in this app?
+
+State dynamically updates the app on user input. FilterableProductTable uses filterText and inStockOnly to update UI based on the entry on search bar, and/or if the checkbox is checked or not. Props pass data between components. FilterableProductTable sends filterText, inStockOnly, and products as props to ProductTable which allows for filtering and proper display of products.
